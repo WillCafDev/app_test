@@ -1,0 +1,114 @@
+{
+   "cawafApp":{
+       "name":"CAWAF"
+   },
+   "baseAdmin":{
+         "sectionOne":"Ventas",
+         "sectionTwo":"Mantenimiento",
+         "sectionTree":"Administración",
+         "sectionFour":"Ajustes"
+   },
+   "baseSeller":{
+         "sectionOne":"Inicio",
+         "sectionTwo":"Clientes",
+         "sectionTree":"Articulos",
+         "sectionFour":"Pedidos",
+         "sectionFive":"Ventas"
+   },
+   "statusSelling":{
+      "sellOff":"Offline",
+      "sellWait":"Esperando",
+      "sellOn":"Online"
+   },
+   "login":{
+      "welcome":"Bienvenido",
+      "hintUser":"Usuario",
+      "hintPassword":"Contraseña",
+      "buttonLogin":"Ingresar",
+      "buttonRegister":"Registrarse",
+      "textLosePassword":"Olvidé mi contraseña",
+      "reservedDescription":"© 2021 Cawaf All Rights Reserved",
+      "errors":{
+          "networkError":"Error de conexión a Internet.",
+          "accessDenied":"Usuario y/o contraseña incorrectos.",
+          "unknownError":"Error desconocido comunicarse con soporte."
+      }
+   },
+   "register":{
+      "title":"Registro",
+      "buttonRegister":"Registrar",
+      "reservedDescription":"© 2021 Cawaf All Rights Reserved",
+      "hintBusinessName":"Razón Social",
+      "hintBusinessRuc":"Ruc",
+      "hintBusinessAddress":"Direción",
+      "hintBusinessCity":"Ciudad",
+      "hintBusinessCountry":"País",
+      "hintBusinessPhone":"Teléfono",
+      "hintBusinessEmail":"Correo",
+      "hintUser":"Usuario",
+      "hintPassword":"Contraseña",
+      "errors":{
+          "networkError":"Error de conexión a Internet.",
+          "accessFailure":"Error en el registro.",
+          "unknownError":"Error desconocido comunicarse con soporte."
+      }
+   },
+   "maintenance":{
+    "person":"Persona",
+    "employed":"Empleado",
+    "customer":"Cliente",
+    "seller":"Vendedor",
+    "driver":"Chofer",
+    "listPrice":"Lista de Precios",
+    "salesUnit":"Und de Venta",
+    "category":"Categoría",
+    "supplier":"Proveedor",
+    "salesForce":"Fuerza de venta",
+    "articles":"Artículos",
+    "family":"Familia",
+    "promotions":"Promociones",
+    "discount":"Descuento",
+    "points":"Puntos",
+    "bonuses":"Bonificaciones",
+    "offers":"Ofertas",
+    "structure":"Estructura",
+    "routes":"Rutas",
+    "modules":"Módulos",
+    "visitingFrequency":"Frecuencia \n de visita"
+   },
+   "managament":{
+    "accounting":"Contabilidad",
+    "expenses":"Egresos",
+    "income":"Ingresos",
+    "reportOne":"Reporte 1",
+    "reportTwo":"Reporte 2",
+    "reportTree":"Reporte 3",
+    "reportFour":"Reporte 4",
+    "inventory":"Inventario",
+    "gain":"Ganancia",
+    "active":"Activar",
+    "incomeArticles":"Ingreso artículos",
+    "movements":"Movimientos",
+    "kardex":"Kardex"
+   },
+   "loaderConfig":{
+      "title":"Cargando...",
+      "content":"Configurando información importante para el funcionamiento de la aplicación."
+   },
+   "errorFailure":{
+      "NetwortConnectionFailure":"Internet: Sin Internet o su conexió es muy lenta.",
+      "ConnectionTimeoutFailure":"Tiempo de espera: La conexión al servidor ha terminado.",
+      "ServerCancelFailure":"Conexón: La conexión al servidor ha sido cerrada.",
+      "ParserErrorFailure":"Conversión: Error al convertir la información de respuesta o parámetros de solicitud.",
+      "ServerSocketFailure":"Error servidor: Ha ocurrido un error con el servidor.",
+      "UndefinedOrUrlNotExistFailure":"Servidor disponible : El servidor no existe o no se encuentra disponible.",
+      "InvalidCredentialsFailure":"Credenciales: Las credenciales no son válidas.",
+      "NotFoundFailure":"Error recurso: No se encontró el recurso solicitado.",
+      "ConflictFailure":"Conflicto: Error de conflicto.",
+      "RequestTimeOutFailure":"Tiempo de espera: Error de tiempo de solicitud.",
+      "InternalServerErrorFailure":"Error servidor: Error interno del servidor.",
+      "SessionExpiredFailure":"Error sesión: Sesión expirada.",
+      "OthersFailure":"Otros Errores: Un error nuevo ha ocurrido.",
+      "RegisterInvalidFailure":"Registro invalido: Usuario o Compania ya existen."
+   }
+}
